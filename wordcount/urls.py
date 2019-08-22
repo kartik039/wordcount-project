@@ -21,4 +21,5 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('count/', views.count, name="count"),
     path('aboutme/', views.about, name="about me"),
+    path('gitex/', views.about, name="gitex"),
 ]
