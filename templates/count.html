@@ -1,0 +1,9 @@
+<h1>There are {{count}} words in the text below</h1>
+
+<a href="{% url 'home' %}">Back</a>
+<h1>Your text is:</h1>
+{{text}}
+<br/>
+{% for word,cnt in defdict %}
+The word "{{word}}" appears : {{cnt}} times<br/>
+{% endfor %}
